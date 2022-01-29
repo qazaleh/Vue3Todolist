@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/*@layer base {*/
+/*    h1 {*/
+/*        @apply text-2xl;*/
+/*    }*/
+/*    h2 {*/
+/*        @apply text-xl;*/
+/*    }*/
+/*}*/
+
+@layer components {
+    .todo-item {
+        @apply flex justify-between content-center items-center px-3 mx-3  bg-gray-100  rounded-lg h-24
+    }
+
+    .todo-title {
+        @apply  text-blue-900 uppercase font-bold py-2 px-4;
+    }
+    .todo-subtitle {
+        @apply  text-red-600  font-light ;
+    }
+}
+
+/*@layer utilities {*/
+/*    @variants hover, focus {*/
+/*        .filter-none {*/
+/*            filter: none;*/
+/*        }*/
+/*        .filter-grayscale {*/
+/*            filter: grayscale(100%);*/
+/*        }*/
+/*    }*/
+/*}*/
+/*@variants focus, hover {*/
+/*    .rotate-0 {*/
+/*        transform: rotate(10deg);*/
+/*    }*/
+/*    .rotate-90 {*/
+/*        transform: rotate(90deg);*/
+/*    }*/
+/*}*/
+/*@screen sm {*/
+/*    !* ... *!*/
+/*}*/
+/*@media screen(sm) {*/
+/*    !* ... *!*/
+/*}*/
+/*@responsive {*/
+/*    .bg-gradient-brand {*/
+/*        background-image: linear-gradient(blue, green);*/
+/*    }*/
+/*}*/
